@@ -1,5 +1,5 @@
 .Grid {
-    display: grid;
+    display: block;
     grid-template-areas: "stack";
 
     >* {
@@ -11,4 +11,12 @@
         max-height: 60vh;
         object-fit: cover;
     } 
+}
+
+.container {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

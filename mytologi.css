@@ -13,8 +13,14 @@
     } 
 }
 
+.björk_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .container {
-    max-width: 56rem;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -23,14 +29,13 @@
 
 p {
     font-family: Papyrus;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: darkblue;
-    padding-bottom: 1.26vh;
+    margin: 0;
 }
 
-footer {
-    text-align: center;
-    padding: 0.01vh;
-    background-color: gray;
-    color: white;
+h2 {
+    font-family: Papyrus;
+    color: darkslateblue;
+    font-size: 1.5rem;
 }
